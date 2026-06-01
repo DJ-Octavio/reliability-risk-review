@@ -277,8 +277,6 @@ memory/
 | **OpenClaw** | Agent 运行时 · Agent Runtime | 任务编排与 Skill 路由 | Task orchestration and skill routing |
 | **openpyxl** | xlsx 报告生成 · xlsx Generation | 带格式多Sheet Excel | Formatted multi-sheet Excel |
 | **飞书 Bitable API** | 报告输出 · Report Output | 多维表格创建与上传 | Bitable creation and upload |
-| **传音 HR/考勤 API** | 企业信息查询 · Enterprise Info | 员工信息/考勤/年假 | Employee info / attendance / leave |
-
 ---
 
 ## 🚀 使用方式 / Usage
@@ -436,20 +434,6 @@ Add entries to `memory/failure-database/failure-modes-database.md`, including:
 - 历史案例 · Historical cases (optional)
 
 ---
-
-## 🤝 贡献指南 / Contributing
-
-1. **新增规则** → 提交至 `memory/rules.md`，注明适用条件和结论
-2. **新增失效模式** → 提交至 `memory/failure-database/failure-modes-database.md`
-3. **新增测试项目** → 提交至 `memory/test-items.md`，注明标准参考
-4. **历史复盘** → 归档至 `memory/history/<品类>/`，格式参考现有文件
-
-**提交要求 / Submission Requirements**:
-- 每个条目必须附带**来源依据**（标准编号 / 历史案例 / 工程数据）
-- 矛盾条目以更新日期更近的为准，并在差异分析中注明
-- Every entry must include a **source reference** (standard number / historical case / engineering data)
-- Conflicting entries: the more recently updated one takes precedence, noted in the diff analysis
-
 ---
 
 <p align="center">
